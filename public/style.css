@@ -155,3 +155,67 @@ button.hide {
   flex-grow: 1;
   margin-right: 1rem;
 }
+
+@media (max-width: 768px) {
+  .player-container {
+    flex-direction: column;
+  }
+
+  .playlist-header {
+    flex-direction: column;
+  }
+
+  .left-content {
+    max-width: 100%;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+  }
+
+  .right-content {
+    max-width: 100%;
+    justify-content: space-between;
+  }
+
+  button, label.file-input-label, input[type="text"] {
+    padding: 0.15rem;
+    margin-right: 0.25rem;
+    flex-grow: 1;
+  }
+
+  .header {
+    padding: 0.25rem;
+    justify-content: center;
+  }
+
+  input {
+    max-width: 100px;
+  }
+
+  input.playlist-title {
+    max-width: 80%;
+  }
+
+  .playlist {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  #app {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .playlist-header {
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .player-container {
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.25rem;
+    border-bottom: 1px solid #ccc;
+  }
+}
