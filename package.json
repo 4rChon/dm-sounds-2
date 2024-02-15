@@ -1,9 +1,8 @@
 {
   "scripts": {
     "start": "npm run build:watch",
-    "build": "webpack",
-    "build:watch": "webpack serve --open",
-    "build:prod": "webpack --mode production"
+    "build": "webpack --mode production",
+    "build:watch": "webpack serve --open"
   },
   "dependencies": {
     "webpack": "^5.89.0",
